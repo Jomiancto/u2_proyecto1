@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+u2_proyecto1/local_settings.py
+
+# Django local files
+db.sqlite3
+*.log
+
+# Local editor configuration
+.vscode/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
